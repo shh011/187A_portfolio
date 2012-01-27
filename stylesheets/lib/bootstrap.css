@@ -181,7 +181,7 @@ textarea {
  * Basic and global styles for generating a grid system, structural layout, and page templates
  * ------------------------------------------------------------------------------------------- */
 body {
-  background-color: #ffffff;
+  background-color: white;
   margin: 0;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 13px;
@@ -1308,6 +1308,7 @@ table .headerSortUp.purple, table .headerSortDown.purple {
   right: 0;
   z-index: 10000;
   overflow: visible;
+  background-color: black;
 }
 .topbar a {
   color: #bfbfbf;
@@ -1412,6 +1413,7 @@ table .headerSortUp.purple, table .headerSortDown.purple {
   -webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25), inset 0 -1px 0 rgba(0, 0, 0, 0.1);
   -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25), inset 0 -1px 0 rgba(0, 0, 0, 0.1);
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25), inset 0 -1px 0 rgba(0, 0, 0, 0.1);
+  
 }
 .topbar div > ul, .nav {
   display: block;
@@ -1419,10 +1421,12 @@ table .headerSortUp.purple, table .headerSortDown.purple {
   margin: 0 10px 0 0;
   position: relative;
   left: 0;
+  background-color: black;
 }
 .topbar div > ul > li, .nav > li {
   display: block;
   float: left;
+  
 }
 .topbar div > ul a, .nav a {
   display: block;
